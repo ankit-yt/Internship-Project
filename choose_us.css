@@ -1,0 +1,441 @@
+.why-choose-us{
+    background-color: #121212;
+    padding: 30px 20px;
+    text-align: center;
+    overflow: hidden;
+    height: 60vh;
+    width: 100vw;
+   
+    
+    
+  
+   
+}
+
+.section-title{
+    font-size: 36px;
+    color: #ffffff;
+    margin-bottom: 40px;
+    position: relative;
+   
+    
+}
+.section-title::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 4px;
+    background-color: #ffa500; /* Accent color */
+    margin: 20px auto 0;
+  }
+
+.features-container{
+    position: relative;
+    width: 100%;
+    height:70%;
+    display: flex;
+    /* background: #000; */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    
+    
+
+    
+    
+    
+    
+   
+}
+
+.feature-icon-container {
+    /* background-color: #333333; */
+    border-radius: 50%;
+    /* padding: 20px; */
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin: 0 auto 20px; */
+  }
+
+.feature-box{
+    width: 100%;
+    padding: 30px;
+  
+
+    /* height: 100%; */
+    /* background-color: #1e1e1e; */
+    /* margin-left: 20%; */
+    flex-shrink: 0;
+    display: flex;
+    overflow: hidden;
+    
+    
+    
+
+}
+
+.inside-box{
+    width: 20%;
+    height: 100%;
+    
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+/* Styles for the .blank container */
+/* Styles for the .blank container */
+
+
+
+/* 
+width: 197px;
+  height: 70px;
+  position: absolute;
+  background: #05d02e;
+  font-size: 57px;
+  margin-left: 46%;
+  margin-top: -7%;
+  transform: rotate(-25deg);
+  position: relative;
+  z-index: 3; */
+
+
+
+
+.inside-box p{
+    font-size: 16px;
+    color: #cccccc;
+    line-height: 1.6;
+}
+
+.inside-box h3{
+    font-size: 22px;
+    color: #ffa500; /* Accent color */
+    margin-bottom: 10px;
+}
+
+.feature-icon{
+    width: 60px;
+    height: 60px;
+    filter: brightness(0) invert(1);
+}
+
+
+
+
+
+
+
+
+.blank {
+    width: 400px;
+    height: 200px;
+    margin-left: 20%;
+    margin-top: -2%;
+    position: relative;
+}
+
+/* Cartoonish ::after pseudo-element */
+/* Cartoonish ::after pseudo-element */
+.blank::after {
+    content: "";
+    position: absolute;
+    width: 40%;
+    height: 55%;
+    top: 70%;
+    left: 5%;
+    transform: rotate(10deg) skew(5deg, 5deg); /* Slightly exaggerated transformation */
+    border-radius: 20px; /* Rounded corners */
+    background: linear-gradient(to right, #ff8a00, #e52e71); /* Gradient from orange to pink */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); /* Soft shadow for depth */
+    opacity: 0.9;
+    z-index: 1; 
+}
+
+/* Cartoonish ::before pseudo-element */
+.blank::before {
+    content: "";
+    position: absolute;
+    width: 150%;
+    height: 100%;
+    top: 20%;
+    left: -10%;
+    transform: rotate(10deg) skew(10deg, 10deg); /* Slightly exaggerated transformation */
+    border-radius: 30px; /* Rounded corners */
+    background: linear-gradient(to right, #ff9d00, #d21eff); /* Gradient from deep sky blue to dodger blue */
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3); /* Soft shadow for depth */
+    opacity: 0.9;
+    z-index: 0; 
+}
+
+
+/* Styles for the h1 element */
+.blank h1 {
+    width: 150px;
+    height: 90px;
+    margin-left: 10%;
+    margin-top: 34%;
+    font-size: 80px;
+    
+    transform: rotate(2deg);
+    position: relative;
+    z-index: 2;
+    font-family: 'Arial Black', 'Arial Bold', sans-serif; /* Professional font */
+    color: #ffffff; /* White color for better visibility */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adding a text shadow */
+}
+
+/* Styles for the h2 element */
+.blank h2 {
+    width: 250px;
+    height: 70px;
+    position: absolute;
+    font-size: 120px;
+    margin-left: 10%;
+    margin-top: -60%;
+    transform: rotate(2deg);
+    position: relative;
+    z-index: 3; 
+    font-family: 'Arial Black', 'Arial Bold', sans-serif; /* Professional font */
+    color: #ffffff; /* White color for better visibility */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adding a text shadow */
+    align-items: center;
+}
+
+
+
+
+
+
+
+/* Styles for the professional-team sticker */
+.professional-team {
+    width: 400px;
+    height: 200px;
+    margin-left: 10%;
+    margin-top: -2%;
+    position: relative;
+}
+
+/* Professional sticker ::after pseudo-element */
+.professional-team::after {
+    content: "";
+    position: absolute;
+    width: 60%;
+    height: 60%;
+    top: 10%;
+    left: 10%;
+    transform: rotate(-15deg) skew(5deg, 5deg); /* Exaggerated transformation */
+    border-radius: 15px 40px; /* Playful rounded corners */
+    background: linear-gradient(to right, #792886, #23d8cc); /* Professional gradient */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); /* Add a shadow for a cartoonish effect */
+    opacity: 0.9;
+    z-index: 1; 
+}
+
+/* Professional sticker ::before pseudo-element */
+.professional-team::before {
+    content: "";
+    position: absolute;
+    width: 150%;
+    height: 100%;
+    top: 25%;
+    left: -15%;
+    transform: rotate(-10deg) skew(-5deg, -5deg); /* Exaggerated transformation */
+    border-radius: 30px 15px; /* Playful rounded corners */
+    background: linear-gradient(to right, #c825a7, #0d79c1); /* Professional gradient */
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3); /* Add a shadow for a cartoonish effect */
+    opacity: 0.9;
+    z-index: 0; 
+}
+
+/* Styles for the h1 element */
+.professional-team h1 {
+    width: 150px;
+    height: 90px;
+    margin-left: 12%;
+    margin-top: 5%;
+    font-size: 80px;
+    transform: rotate(-10deg);
+    position: relative;
+    z-index: 2;
+    font-family: 'Arial Black', 'Arial Bold', sans-serif; /* Professional font */
+    color: #ffffff; /* White color for better visibility */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adding a text shadow */
+}
+
+/* Styles for the h2 element */
+.professional-team h2 {
+    width: 250px;
+    height: 70px;
+    position: absolute;
+    white-space: nowrap;
+    font-size: 120px;
+    margin-left: 9%;
+    margin-top: 1%;
+    transform: rotate(-5deg);
+    position: relative;
+    z-index: 3; 
+    font-family: 'Arial Black', 'Arial Bold', sans-serif; /* Professional font */
+    color: #ffffff; /* White color for better visibility */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adding a text shadow */
+    align-items: center;
+}
+
+
+
+
+
+/* Styles for the affordable-pricing sticker */
+.affordable-pricing {
+    width: 400px;
+    height: 200px;
+    margin-left: 15%;
+    margin-top: -2.3%;
+    position: relative;
+}
+
+/* Affordable sticker ::after pseudo-element */
+.affordable-pricing::after {
+    content: "";
+    position: absolute;
+    width: 70%;
+    height: 60%;
+    top: 70%;
+    left: 5%;
+    transform: rotate(10deg) skew(5deg, 5deg); /* Slightly exaggerated transformation */
+    border-radius: 20px; /* Rounded corners */
+    background: linear-gradient(to right, #f3132d, #a808f8); /* Soft pink gradient for affordability */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Soft shadow for depth */
+    opacity: 0.9;
+    z-index: 1; 
+}
+
+/* Affordable sticker ::before pseudo-element */
+.affordable-pricing::before {
+    content: "";
+    position: absolute;
+    width: 150%;
+    height: 100%;
+    top: 20%;
+    left: -10%;
+    transform: rotate(10deg) skew(10deg, 10deg); /* Slightly exaggerated transformation */
+    border-radius: 30px; /* Rounded corners */
+    background: linear-gradient(to right, #a745fc, #fd1d1d); /* Warm gradient from orange to red */
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2); /* Soft shadow for depth */
+    opacity: 0.9;
+    z-index: 0; 
+}
+
+/* Styles for the h1 element */
+.affordable-pricing h1 {
+    width: 150px;
+    height: 90px;
+    margin-left: 10%;
+    margin-top: -60%;
+    font-size: 120px;
+    
+    transform: rotate(2deg);
+    position: relative;
+    z-index: 2;
+    font-family: 'Arial Black', 'Arial Bold', sans-serif; /* Professional font */
+    color: #ffffff; /* White color for better visibility */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adding a text shadow */
+}
+
+/* Styles for the h2 element */
+.affordable-pricing h2 {
+    width: 250px;
+    height: 70px;
+    position: absolute;
+    font-size: 80px;
+    margin-left: 10%;
+    margin-top: 35%;
+    transform: rotate(14deg);
+    position: relative;
+    z-index: 3; 
+    font-family: 'Arial Black', 'Arial Bold', sans-serif; /* Professional font */
+    color: #ffffff; /* White color for better visibility */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adding a text shadow */
+    align-items: center;
+}
+
+
+/* Styles for the customer-services sticker */
+.customer-services {
+    width: 400px;
+    height: 200px;
+    margin-left: 20%;
+    margin-top: -2%;
+    position: relative;
+}
+
+/* Customer services sticker ::after pseudo-element */
+.customer-services::after {
+    content: "";
+    position: absolute;
+    width: 60%;
+    height: 60%;
+    top: 10%;
+    left: 10%;
+    transform: rotate(-10deg) skew(5deg, 5deg); /* Slightly exaggerated transformation */
+    border-radius: 20px; /* Rounded corners */
+    background: linear-gradient(to right, #a73ed8, #d92863); /* Soft purple gradient */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Soft shadow for depth */
+    opacity: 0.9;
+    z-index: 1; 
+}
+
+/* Customer services sticker ::before pseudo-element */
+.customer-services::before {
+    content: "";
+    position: absolute;
+    width: 150%;
+    height: 100%;
+    top: 20%;
+    left: -10%;
+    transform: rotate(-5deg) skew(-5deg, -5deg); /* Slightly exaggerated transformation */
+    border-radius: 30px; /* Rounded corners */
+    background: linear-gradient(to right, #e831a2, #0f3fc3); /* Light purple to pink gradient */
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2); /* Soft shadow for depth */
+    opacity: 0.9;
+    z-index: 0; 
+}
+
+/* Styles for the h1 element */
+.customer-services h1 {
+    width: 150px;
+    height: 90px;
+    margin-left: 17%;
+    margin-top: 5%;
+    font-size: 80px;
+    transform: rotate(-5deg);
+    position: relative;
+    z-index: 2;
+    font-family: 'Arial Black', 'Arial Bold', sans-serif; /* Bold font for impact */
+    color: #ffffff; /* White color for contrast */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adding a text shadow */
+}
+
+/* Styles for the h2 element */
+.customer-services h2 {
+    width: 250px;
+    height: 70px;
+    position: absolute;
+    font-size: 120px;
+    margin-left: 9%;
+    margin-top: 1%;
+    transform: rotate(0deg);
+    position: relative;
+    z-index: 3; 
+    font-family: 'Arial Black', 'Arial Bold', sans-serif; /* Bold font for impact */
+    color: #ffffff; /* White color for contrast */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adding a text shadow */
+    align-items: center;
+}

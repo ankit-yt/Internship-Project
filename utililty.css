@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Satisfy&display=swap');
+
+/* {
+    .satisfy-regular {
+        font-family: "Satisfy", cursive;
+        
+      }
+
+      .josefin-sans-<uniquifier> {
+        font-family: "Josefin Sans", sans-serif;
+        
+      }
+      
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Satisfy&family=Tangerine:wght@400;700&display=swap');
+
+/* {
+    .tangerine-regular {
+        font-family: "Tangerine", cursive;
+        font-weight: 400;
+        font-style: normal;
+      }
+      
+      .tangerine-bold {
+        font-family: "Tangerine", cursive;
+        font-weight: 700;
+        font-style: normal;
+      }
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Satisfy&family=Tangerine:wght@400;700&display=swap');
+
+/* {
+    font-family: "Jaro", sans-serif;
+    
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Micro+5+Charted&family=Satisfy&family=Tangerine:wght@400;700&display=swap');
+/* {
+    font-family: "Micro 5 Charted", sans-serif;
+} */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Jaro:opsz@6..72&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Micro+5+Charted&family=Satisfy&family=Tangerine:wght@400;700&display=swap');
+
+/* {
+    font-family: "Aclonica", sans-serif;
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Anton&family=Pacifico&family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Jaro:opsz@6..72&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Micro+5+Charted&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Satisfy&family=Tangerine:wght@400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #121212;
+    /* font-family: "Josefin Sans", sans-serif; */
+    font-family: "Josefin Sans", sans-serif;
+    /* overflow-x: hidden; */
+    overflow-x: hidden ;
+
+  
+    
+    
+}
+
+body::before{
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: inherit; 
+    filter: blur(10px); 
+    z-index: -1;
+
+}
+
+.page{
+    width: 100vw;
+    height: 100vh;
+    background: #840909;
+}

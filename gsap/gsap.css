@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.page{
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+.page1{
+    background-color: #057d81;
+}
+
+.page2{
+    background-color: #d2aa07fe;
+    font-size: 20vw;
+    white-space: nowrap;
+}
+
+.page3{
+    background-color: #5511d4;
+}

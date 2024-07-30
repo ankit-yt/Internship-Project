@@ -1,0 +1,72 @@
+.services {
+    background-color: #121212;
+    padding: 80px 20px;
+    text-align: center;
+  }
+  
+  .services-title {
+    font-size: 36px;
+    color: #ffffff;
+    margin-bottom: 40px;
+    position: relative;
+  }
+  
+  .services-title::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 4px;
+    background-color: #ffa500; /* Accent color */
+    margin: 20px auto 0;
+  }
+  
+  .services-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+  }
+  
+  .service-box {
+    background-color: #1e1e1e;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 280px;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .service-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  .service-icon-container {
+    background-color: #333333;
+    border-radius: 50%;
+    padding: 20px;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 20px;
+  }
+  
+  .service-icon {
+    width: 60px;
+    height: 60px;
+    filter: brightness(0) invert(1); /* Ensures icon is visible on dark background */
+  }
+  
+  .service-title {
+    font-size: 22px;
+    color: #ffa500; /* Accent color */
+    margin-bottom: 10px;
+  }
+  
+  .service-description {
+    font-size: 16px;
+    color: #cccccc;
+    line-height: 1.6;
+  }
